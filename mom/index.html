@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz For Mamah</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Quiz For Mamah</h1>
+    <button id="startBtn">Start Quiz</button>
+    
+    <div id="quizContainer">
+        <div class="question" id="q1">
+            <p>Apakah Mamah Sehat?</p>
+            <button onclick="checkAnswer(1, 'yes')">Yes</button>
+            <button onclick="checkAnswer(1, 'no')">No</button>
+        </div>
+        <div class="question" id="q2">
+            <p>Apakah Mamah Cantik?</p>
+            <button onclick="checkAnswer(2, 'yes')">Yes</button>
+            <button onclick="checkAnswer(2, 'no')">No</button>
+        </div>
+        <div class="question" id="q3">
+            <p>Apakah Mamah Laki-laki?</p>
+            <button onclick="checkAnswer(3, 'yes')">Yes</button>
+            <button onclick="checkAnswer(3, 'no')">No</button>
+        </div>
+        <div class="question" id="q4">
+            <p>Apakah Mamah Sayang Papah?</p>
+            <button onclick="checkAnswer(4, 'yes')">Yes</button>
+            <button onclick="checkAnswer(4, 'no')">No</button>
+        </div>
+        <div class="question" id="q5">
+            <p>Apakah Mamah Sayang Delvin?</p>
+            <button onclick="checkAnswer(5, 'yes')">Yes</button>
+            <button onclick="checkAnswer(5, 'no')">No</button>
+        </div>
+        <div class="question" id="q6">
+            <p>Apakah Mamah Sayang Debi?</p>
+            <button onclick="checkAnswer(6, 'yes')">Yes</button>
+            <button onclick="checkAnswer(6, 'no')">No</button>
+        </div>
+        <div class="question" id="q7">
+            <p>Apakah Menurut Mamah Kita Anak baik?</p>
+            <button onclick="checkAnswer(7, 'yes')">Yes</button>
+            <button onclick="checkAnswer(7, 'no')">No</button>
+        </div>
+        <div class="question" id="q8">
+            <p>Apakah Bersyukur Mempunyai Anak Seperti Delvin Dan Debi?</p>
+            <button onclick="checkAnswer(8, 'yes')">Yes</button>
+            <button onclick="checkAnswer(8, 'no')">No</button>
+        </div>
+    </div>
+    
+    <div id="love" class="love">❤️</div>
+    <div id="explosionText"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
